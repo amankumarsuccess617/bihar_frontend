@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Alert } from "@/components/Alert";
 import { apiFetch } from "@/lib/api";
 import { useAuth } from "@/providers/AuthProvider";
+import { Suspense } from "react";
 
 type PaymentData = {
   id: number;
@@ -16,7 +17,7 @@ type PaymentData = {
   invoice?: { id: number };
 };
 
-export default function PaymentPage() {
+function PaymentPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { token, user, ready } = useAuth();
@@ -191,5 +192,13 @@ const data = await apiFetch<PaymentData>(`/api/payments/application/${appId}`, {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function PaymentPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PaymentPageContent />
+    </Suspense>
   );
 }
