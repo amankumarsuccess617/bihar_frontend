@@ -39,8 +39,7 @@ export default function PaymentPage() {
     if (!appId || !token) return;
     (async () => {
       try {
-        const data = await apiFetch(`/api/payments/application/${appId}`, { token });
-        setPayment(data);
+const data = await apiFetch<PaymentData>(`/api/payments/application/${appId}`, { token });        setPayment(data);
       } catch (e) {
         setError(e instanceof Error ? e.message : "Failed to load payment");
       } finally {
