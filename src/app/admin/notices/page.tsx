@@ -58,7 +58,7 @@ export default function AdminNotices() {
     setMsg("");
     setBusy(true);
     try {
-      const newNotice = await apiFetch("/api/notices", {
+      const newNotice = await apiFetch<Notice>("/api/notices", {
         method: "POST",
         token,
         body: JSON.stringify({ title: title.trim(), body: body.trim() || null, isImportant }),
