@@ -50,7 +50,7 @@ const { token, user, ready } = useAuth();
       });
       if (!res.ok) throw new Error('Failed to fetch posts');
       const posts = await res.json();
-      const current = Array.isArray(posts) ? posts.find((p) => p.id === Number(postId)) : posts.posts?.find((p) => p.id === Number(postId));
+      const current = Array.isArray(posts) ? posts..find((p: any) => p.id === Number(postId)) : posts.posts?.find((p) => p.id === Number(postId));
 
       if (!current) throw new Error('Post not found');
 
