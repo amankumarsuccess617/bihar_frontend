@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5in" height="5in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5000 5000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l5000 0 0 5000 -5000 0 0 -5000z"/>
+   </clipPath>
+     <clipPath id="id1">
+      <path d="M200.87 3640.61l4598.27 0 0 896.13 -4598.27 0 0 -896.13z"/>
+     </clipPath>
+     <clipPath id="id2">
+      <path d="M-0 0l5000 0 0 5000 -5000 0 0 -5000z"/>
+     </clipPath>
+     <clipPath id="id3">
+      <path d="M-0 0l5000 0 0 3466.98 -5000 0 0 -3466.98z"/>
+     </clipPath>
+     <clipPath id="id4">
+      <path d="M-0 0l5000 0 0 5000 -5000 0 0 -5000z"/>
+     </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <g id="_2768156438208">
+    </g>
+    <g style="clip-path:url(#id1)">
+     <image x="200.87" y="3640.61" width="4598.27" height="896.13" xlink:href="BIHAR STATE  DEVELOPMENT_Images\BIHAR STATE  DEVELOPMENT_ImgID1.png"/>
+    </g>
+    <g style="clip-path:url(#id2)">
+    </g>
+    <g style="clip-path:url(#id3)">
+     <image x="-1369.52" y="-22.47" width="7739.05" height="3489.46" xlink:href="BIHAR STATE  DEVELOPMENT_Images\BIHAR STATE  DEVELOPMENT_ImgID2.png"/>
+    </g>
+    <g style="clip-path:url(#id4)">
+    </g>
+   </g>
+  </g>
+  <polygon class="fil0" points="-0,0 5000,0 5000,5000 -0,5000 "/>
+ </g>
+</svg>
