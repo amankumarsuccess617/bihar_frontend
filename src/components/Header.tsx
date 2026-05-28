@@ -91,7 +91,7 @@ export function Header() {
               ) : (
                 <Link
                   href="/login"
-                  className="rounded bg-blue-900 px-4 py-2 text-xs font-medium text-white hover:bg-blue-950"
+                  className="rounded bg-blue-400 px-4 py-2 text-xs font-medium text-white hover:bg-blue-950"
                 >
                   Login
                 </Link>
